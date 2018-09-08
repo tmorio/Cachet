@@ -137,21 +137,21 @@ return [
 
     // Metrics
     'metrics' => [
-        'metrics' => '評価基準',
+        'metrics' => '評価・レポート',
         'add'     => [
-            'title'   => '評価基準の作成',
-            'message' => '評価基準を追加してください。',
-            'success' => '評価基準を追加しました。',
-            'failure' => '評価基準の追加に失敗しました。もう一度お試し下さい。',
+            'title'   => 'レポートの作成',
+            'message' => 'レポートを追加してください。',
+            'success' => 'レポートを追加しました。',
+            'failure' => 'レポートの追加に失敗しました。もう一度お試し下さい。',
         ],
         'edit' => [
-            'title'   => '評価基準の編集',
-            'success' => '評価基準を編集しました。',
-            'failure' => '評価基準の編集に失敗しました。もう一度お試し下さい。',
+            'title'   => 'レポートの編集',
+            'success' => 'レポートを編集しました。',
+            'failure' => 'レポートの編集に失敗しました。もう一度お試し下さい。',
         ],
         'delete' => [
-            'success' => '評価基準を削除しました。',
-            'failure' => '評価基準の削除に失敗しました。もう一度お試し下さい。',
+            'success' => 'レポートを削除しました。',
+            'failure' => 'レポートの削除に失敗しました。もう一度お試し下さい。',
         ],
     ],
     // Subscribers
@@ -274,16 +274,16 @@ return [
     // Notifications
     'notifications' => [
         'notifications' => '通知',
-        'awesome'       => '正常に処理できました。',
+        'awesome'       => '',
         'whoops'        => 'おおっと',
     ],
 
     // Widgets
     'widgets' => [
-        'support'          => 'Cachetサポート',
-        'support_subtitle' => '次の<strong><a href="https://patreon.com/jbrooksuk" target="_blank">Patreon</a></strong>ページをご確認ください。',
-        'news'             => '更新情報',
-        'news_subtitle'    => '最新のニュースはこちらから',
+        'support'          => 'Cachetに寄付する',
+        'support_subtitle' => '<strong><a href="https://patreon.com/jbrooksuk" target="_blank">Patreon</a></strong>ページをご確認ください。',
+        'news'             => '最新ニュース',
+        'news_subtitle'    => 'Cachetに関する最新のニュースはこちらから',
     ],
 
     // Welcome modal
