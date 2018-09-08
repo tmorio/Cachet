@@ -16,7 +16,7 @@ return [
         'status'       => [
             0 => '不明',
             1 => '稼働中',
-            2 => 'パフォーマンスに関する問題あり',
+            2 => 'パフォーマンス低下',
             3 => '一部停止中',
             4 => '大規模な停止中',
         ],
@@ -92,7 +92,7 @@ return [
             'unsubscribe'        => 'メール購読を解除する',
             'unsubscribed'       => 'メールの購読を解除しました。',
             'failure'            => '購読に失敗しました。',
-            'already-subscribed' => '既に購読しているので :email の購読処理ができません。',
+            'already-subscribed' => '既に購読登録されているため :email の購読処理ができません。',
         ],
     ],
 
@@ -113,7 +113,7 @@ return [
     'modal' => [
         'close'     => '閉じる',
         'subscribe' => [
-            'title'  => 'コンポーネントのアップデート情報を購読する',
+            'title'  => 'サービスの更新情報を購読する',
             'body'   => 'このサービスの稼働状況の更新情報を購読するにはメールアドレスを入力してください。',
             'button' => '購読',
         ],
@@ -122,7 +122,7 @@ return [
     // Meta descriptions
     'meta' => [
         'description' => [
-            'incident'  => ':date に発生した:nameの障害の詳細情報',
+            'incident'  => ':date に発生した:name の障害の詳細情報',
             'schedule'  => ':startDate に予定している:name のメンテナンスの詳細',
             'subscribe' => ':app の障害情報とメンテナンス情報を購読する',
             'overview'  => ':app からの最新の更新を得る',
