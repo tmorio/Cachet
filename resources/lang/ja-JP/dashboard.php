@@ -75,7 +75,7 @@ return [
     // Incident Maintenance
     'schedule' => [
         'schedule'     => 'メンテナンス計画',
-        'logged'       => '{0} 現在計画されているメンテナンスはありません。|現在1つメンテナンスが計画されています。|現在 <strong>:count</strong> つメンテナンスが計画されています。',
+        'logged'       => '{0} 現在計画されているメンテナンスはありません。|[1]現在1つメンテナンスが計画されています。|[2,*]現在 <strong>:count</strong> つメンテナンスが計画されています。',
         'scheduled_at' => 'メンテナンス開始時刻 :timestamp',
         'add'          => [
             'title'   => 'メンテナンス計画を追加',
